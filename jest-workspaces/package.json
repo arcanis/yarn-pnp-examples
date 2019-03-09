@@ -1,0 +1,14 @@
+{
+  "name": "yarn-pnp-workspaces-jest",
+  "private": true,
+  "installConfig": {
+    "pnp": true
+  },
+  "dependencies": {
+    "jest": "^24.3.1",
+    "jest-pnp-resolver": "^1.2.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
